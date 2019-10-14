@@ -8,14 +8,14 @@ open OUT,">$ARGV[2]" or die $!;   ## processed file
 my %hash;
 
 while(<IN>){
-	chomp;
-	my @sp=split /\s+/,$_;
-	   $hash{$sp[0]}=$sp[1];
+    chomp;
+    my @sp=split /\s+/,$_;
+    $hash{$sp[0]}=$sp[1];
 }
 while(<IN2>){
-	chomp;
-	my @sp=split /\s+/,$_;
-	if($sp[0] eq $hash{$sp[1]}){
-	    print OUT "$_\n";
-	}
+    chomp;
+    my @sp=split /\s+/,$_;
+    if($sp[0] eq $hash{$sp[1]}){
+    print OUT "$_\n";
+    }
 }
