@@ -1,0 +1,100 @@
+# fasta36 -b 1 -d 0 -U -E 1e-6 -S -c "0.1 0.02" mm10.lncRNA.fa GRCh38.lncRNA.fa
+FASTA searches a protein or DNA sequence data bank
+ version 36.3.8g Dec, 2017
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query: mm10.lncRNA.fa
+  1>>>NONMMUT000001.2 - 1070 nt (forward-only)
+Library: GRCh38.lncRNA.fa
+  283085164 residues in 172216 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 14.6910+/-0.00365; mu= 22.7620+/- 0.248
+ mean_var=346.6620+/-64.007, 0's: 0 Z-trim(83.2): 2015  B-trim: 0 in 0/46
+ Lambda= 0.068884
+ statistics sampled from 3847 (4642) to 3847 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4)xS, open/ext: -12/-4
+ ktup: 6, E-join: 0.02 (0.00863), E-opt: 0.1 (0.027), width:  16
+ Scan time:  8.640
+
+The best scores are:                                      opt bits E(172236)
+NONHSAT212998.1                                (4049) [f]  486 62.0 6.6e-08
+  2>>>NONMMUT000004.2 - 1714 nt (forward-only)
+Library: GRCh38.lncRNA.fa
+  283085164 residues in 172216 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 12.9762+/-0.00453; mu= 43.4725+/- 0.307
+ mean_var=436.6278+/-76.662, 0's: 0 Z-trim(85.5): 2028  B-trim: 2 in 1/53
+ Lambda= 0.061379
+ statistics sampled from 4999 (5650) to 4999 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4)xS, open/ext: -12/-4
+ ktup: 6, E-join: 0.02 (0.0104), E-opt: 0.1 (0.0299), width:  16
+ Scan time: 11.820
+!! No sequences with E() < 1e-06
+  3>>>NONMMUT000005.2 - 2819 nt (forward-only)
+Library: GRCh38.lncRNA.fa
+  283085164 residues in 172216 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 13.3789+/-0.00288; mu= 56.9664+/- 0.202
+ mean_var=635.6257+/-136.507, 0's: 0 Z-trim(86.3): 3114  B-trim: 2 in 1/44
+ Lambda= 0.050871
+ statistics sampled from 4474 (5939) to 4474 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4)xS, open/ext: -12/-4
+ ktup: 6, E-join: 0.02 (0.0108), E-opt: 0.1 (0.0314), width:  16
+ Scan time: 15.850
+
+The best scores are:                                      opt bits E(172236)
+NONHSAT170803.1                                (4859) [f]  721 69.9 7.1e-10
+  4>>>NONMMUT000006.2 - 2256 nt (forward-only)
+Library: GRCh38.lncRNA.fa
+  283085164 residues in 172216 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 8.9043+/-0.00796; mu= 81.0728+/- 0.521
+ mean_var=556.0910+/-111.365, 0's: 0 Z-trim(84.2): 2721  B-trim: 0 in 0/42
+ Lambda= 0.054388
+ statistics sampled from 3398 (4708) to 3398 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4)xS, open/ext: -12/-4
+ ktup: 6, E-join: 0.02 (0.0104), E-opt: 0.1 (0.0304), width:  16
+ Scan time: 10.260
+
+The best scores are:                                      opt bits E(172236)
+NONHSAT200033.1                                (3661) [f]  630 66.2 7.6e-09
+  5>>>NONMMUT000007.2 - 2468 nt (forward-only)
+Library: GRCh38.lncRNA.fa
+  283085164 residues in 172216 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 12.6791+/-0.00525; mu= 50.5793+/- 0.346
+ mean_var=555.2526+/-103.685, 0's: 0 Z-trim(87.1): 2797  B-trim: 0 in 0/48
+ Lambda= 0.054429
+ statistics sampled from 4978 (6504) to 4978 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4)xS, open/ext: -12/-4
+ ktup: 6, E-join: 0.02 (0.011), E-opt: 0.1 (0.0319), width:  16
+ Scan time: 14.660
+
+The best scores are:                                      opt bits E(172236)
+NONHSAT246887.1                                (15126) [f]  758 76.9 4.9e-12
+  6>>>NONMMUT000008.2 - 2309 nt (forward-only)
+Library: GRCh38.lncRNA.fa
+  283085164 residues in 172216 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 11.3999+/-0.00563; mu= 52.8506+/- 0.372
+ mean_var=340.2168+/-60.833, 0's: 0 Z-trim(82.8): 1708  B-trim: 0 in 0/50
+ Lambda= 0.069534
+ statistics sampled from 3345 (3946) to 3345 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4)xS, open/ext: -12/-4
+ ktup: 6, E-join: 0.02 (0.0105), E-opt: 0.1 (0.0304), width:  16
+ Scan time: 10.620
+!! No sequences with E() < 1e-06
+  7>>>NONMMUT000009.2 - 250 nt (forward-only)
+Library: GRCh38.lncRNA.fa
+  283085164 residues in 172216 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 10.0729+/-0.00324; mu= 45.4826+/- 0.220
+ mean_var=321.5109+/-56.824, 0's: 0 Z-trim(85.8): 1254  B-trim: 0 in 0/49
+ Lambda= 0.071528

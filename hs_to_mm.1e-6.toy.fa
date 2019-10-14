@@ -1,0 +1,100 @@
+# fasta36 -b 1 -d 0 -U -E 1e-6 -S -c "0.1 0.02" GRCh38.lncRNA.fa mm10.lncRNA.fa
+FASTA searches a protein or DNA sequence data bank
+ version 36.3.8g Dec, 2017
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query: GRCh38.lncRNA.fa
+  1>>>NONHSAT000002.2 - 1653 nt (forward-only)
+Library: mm10.lncRNA.fa
+  190978874 residues in 131697 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 13.2690+/-0.00502; mu= 34.2535+/- 0.347
+ mean_var=300.3687+/-57.974, 0's: 0 Z-trim(80.1): 1872  B-trim: 12 in 1/37
+ Lambda= 0.074003
+ statistics sampled from 2297 (3338) to 2297 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4)xS, open/ext: -12/-4
+ ktup: 6, E-join: 0.02 (0.00746), E-opt: 0.1 (0.0253), width:  16
+ Scan time:  8.350
+
+The best scores are:                                      opt bits E(131697)
+NONMMUT067884.2                                (2408) [f]  618 79.4 4.1e-13
+  2>>>NONHSAT000003.2 - 1483 nt (forward-only)
+Library: mm10.lncRNA.fa
+  190978874 residues in 131697 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 13.0753+/-0.00476; mu= 35.8452+/- 0.330
+ mean_var=321.6549+/-61.094, 0's: 0 Z-trim(81.0): 1913  B-trim: 0 in 0/40
+ Lambda= 0.071512
+ statistics sampled from 2538 (3602) to 2538 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4)xS, open/ext: -12/-4
+ ktup: 6, E-join: 0.02 (0.0078), E-opt: 0.1 (0.0263), width:  16
+ Scan time:  7.510
+
+The best scores are:                                      opt bits E(131697)
+NONMMUT025351.2                                (3300) [f]  645 80.2   2e-13
+  3>>>NONHSAT000004.2 - 632 nt (forward-only)
+Library: mm10.lncRNA.fa
+  190978874 residues in 131697 sequences
+
+Statistics: Altschul/Gish params: n0: 632 Lambda: 0.192 K: 0.177 H: 0.360
+ statistics sampled from 608 (2762) to 608 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4)xS, open/ext: -12/-4
+ ktup: 6, E-join: 0.02 (0.00711), E-opt: 0.1 (0.0246), width:  16
+ Scan time:  4.690
+
+The best scores are:                                      opt bits E(131697)
+NONMMUT020029.2                                (1032) [f]  346 98.5 2.8e-19
+  4>>>NONHSAT000005.2 - 507 nt (forward-only)
+Library: mm10.lncRNA.fa
+  190978874 residues in 131697 sequences
+
+Statistics: Altschul/Gish params: n0: 507 Lambda: 0.192 K: 0.177 H: 0.360
+ statistics sampled from 776 (2235) to 776 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4)xS, open/ext: -12/-4
+ ktup: 6, E-join: 0.02 (0.00645), E-opt: 0.1 (0.0227), width:  16
+ Scan time:  4.220
+
+The best scores are:                                      opt bits E(131697)
+NONMMUT082992.1                                ( 722) [f]  258 74.1 4.7e-12
+  5>>>NONHSAT000006.2 - 1213 nt (forward-only)
+Library: mm10.lncRNA.fa
+  190978874 residues in 131697 sequences
+
+Statistics: Altschul/Gish params: n0: 1213 Lambda: 0.192 K: 0.177 H: 0.360
+ statistics sampled from 593 (2858) to 593 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4)xS, open/ext: -12/-4
+ ktup: 6, E-join: 0.02 (0.00636), E-opt: 0.1 (0.0225), width:  16
+ Scan time:  6.170
+
+The best scores are:                                      opt bits E(131697)
+NONMMUT055168.2                                (2526) [f]  527 148.5 4.5e-34
+  6>>>NONHSAT000007.2 - 1271 nt (forward-only)
+Library: mm10.lncRNA.fa
+  190978874 residues in 131697 sequences
+
+Statistics: Altschul/Gish params: n0: 1271 Lambda: 0.192 K: 0.177 H: 0.360
+ statistics sampled from 582 (2767) to 582 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4)xS, open/ext: -12/-4
+ ktup: 6, E-join: 0.02 (0.00626), E-opt: 0.1 (0.0222), width:  16
+ Scan time:  6.280
+
+The best scores are:                                      opt bits E(131697)
+NONMMUT055168.2                                (2526) [f]  527 148.5 4.7e-34
+  7>>>NONHSAT000008.2 - 717 nt (forward-only)
+Library: mm10.lncRNA.fa
+  190978874 residues in 131697 sequences
+
+Statistics: Altschul/Gish params: n0: 717 Lambda: 0.192 K: 0.177 H: 0.360
+ statistics sampled from 653 (2620) to 653 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4)xS, open/ext: -12/-4
+ ktup: 6, E-join: 0.02 (0.00609), E-opt: 0.1 (0.0219), width:  16
+ Scan time:  4.890
+
